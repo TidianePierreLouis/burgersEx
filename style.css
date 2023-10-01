@@ -1,0 +1,105 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/*Structure Settings*/
+.main{
+    height: 100vh;
+    width: 100vw;
+    font-family: "Ubuntu";
+}
+.navBar{
+    height: 5%;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 7vw;
+    padding-left: 8vw;
+}
+.header{
+    padding-right: 15vw;
+    padding-left: 7vw;
+    height: 95%;
+    width: 89vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    border: #a9a7a7 2px   solid;
+    border-radius: 8px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/*Text Settings*/
+.margin{
+    margin-right: 10px;
+}
+.bolder{
+    font-weight: bolder;
+}
+.title{
+     font-weight: bolder;
+     color: black;
+     font-size: 1em;
+}
+.subTitle{
+    text-decoration: none;
+    color: black;
+}
+.subTitle2{
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Light", sans-serif;
+}
+.grayChar{
+     text-decoration: none;
+     color: #494747;
+}
+.textSet1{
+     font-weight: bold;
+     color: black;
+ }
+
+/*Picture and appearance Settings*/
+.burger {
+    background-image: url("burger-image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 150px;
+    width: 250px;
+}
+.greenElement{
+    color: white;
+    background-color: #198754 ;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+input{
+    background-color: #FFC107 ;
+    border-radius: 4px;
+    border  : none;
+    padding: 5px;
+    margin-bottom: 10px;
+    padding-right: 10px ;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+
